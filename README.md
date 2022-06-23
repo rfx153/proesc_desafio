@@ -18,9 +18,9 @@ O time de N3 dentro do suporte técnico tem como principal objetivo resolver cha
 
 Este desafio técnico é uma atividade prática, onde avaliaremos seus conhecimentos de lógica de programação, banco de dados e html, assuntos que precisará utilizar diariamente para a função de agente de suporte N3.
 
-Linguagens: PHP
-Framework: Laravel
-Banco: Postgres
+- Linguagens: PHP
+- Framework: Laravel
+- Banco: Postgres
 
 ### Desafio 1
 No dia a dia utilizamos de html, css e javascript para criar relatórios para nossas instituições de ensino. 
