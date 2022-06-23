@@ -28,10 +28,15 @@ Assim, uma escola pediu auxílio para criar uma declaração de matrícula. Veri
 - Crie o relatório com base na imagem dispobilizada pela escola: [Modelo de declaração de matrícula](inserir link)
 
 ### Desafio 2
-Consulta de banco
+Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas no banco. Utilize o banco de dados disponível para realizar as consultas necessárias. Para conectar ao banco de dados, utilize o acesso disponível no arquivo .env
+
+**Consultas a serem feitas**
+1 - O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?
+2 - Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação
+3 - Faça um SQL para atualizar todos os produtos da categoria Cremes e Geleias para a categoria Frutas
 
 ### Desafio 3
-Correção de código, pegar trechos pra pessoa e corrigir
+Correção de código, pegar trechos pra pessoa e corrigir em cada
 
 
 ## Entrega
