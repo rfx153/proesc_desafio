@@ -27,16 +27,48 @@ Assim, uma escola pediu auxílio para criar uma declaração de matrícula. Veri
 - Utilize html e css puro
 - Crie o relatório com base na imagem dispobilizada pela escola: [Modelo de declaração de matrícula](inserir link)
 
+
 ### Desafio 2
 Consulta de banco
 
 ### Desafio 3
-Correção de código, pegar trechos pra pessoa e corrigir
 
+Nesse desafio, usuários irão ter relatado alguns problemas no uso de uma simples aplicação.
+Como desenvolvedor N3, você deverá realizar uma análise dos problemas relatados e disponibilizar uma correção para normalizar a aplicação.
+
+Problema 1: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.
+Problema 2: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". 
+Problema 3: Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.
 
 ## Entrega
 Para entregar sua solução, baixe este projeto e resolva os 3 desafios propostos.
 
 Assim que finalizar, suba a sua solução para o github e nos envie o link.
 
-Em caso de dúvida, não hesite em nos contatar através do e-mail recebido :)
+Em caso de dúvida, não hesite em nos contatar através do e-mail recebido ou para lorena@proesc.com :)
+
+## Como executar 
+
+Para iniciá-lo, siga os passos abaixo:
+
+```bash
+$ git clone https://github.com/Lorenalgm/desafio_tecnico_proesc/
+```
+
+```bash
+# Instale as depêndencias
+$ composer install
+```
+
+```bash
+Crie arquivo .env clonando o arquivo .env.example
+```
+```bash
+# Crie uma nova chave para a aplicação
+$ php artisan key:generate
+```
+
+```bash
+# Iniciar o projeto
+$ php artisan serve
+```
