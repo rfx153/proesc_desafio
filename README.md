@@ -19,21 +19,19 @@ O time de N3 dentro do suporte técnico tem como principal objetivo resolver cha
 Este desafio técnico é uma atividade prática, onde avaliaremos seus conhecimentos de lógica de programação, banco de dados e html, assuntos que precisará utilizar diariamente para a função de agente de suporte N3.
 
 ### Desafio 1
-Correção de código, pegar trechos pra pessoa e corrigir
-
-### Desafio 2
-Consulta de banco
-
-### Desafio 3
 No dia a dia utilizamos de html, css e javascript para criar relatórios para nossas instituições de ensino. 
 
-Assim, uma escola pediu auxílio para criar uma declaração de matrícula.
-
+Assim, uma escola pediu auxílio para criar uma declaração de matrícula. Verifique o modelo disponibilizado pela escola e crie o código para que o relatório seja disponibilizado para a escola.
 
  **Requisitos**
 - Utilize html e css puro
 - Crie o relatório com base na imagem dispobilizada pela escola: [Modelo de declaração de matrícula](inserir link)
 
+### Desafio 2
+Consulta de banco
+
+### Desafio 3
+Correção de código, pegar trechos pra pessoa e corrigir
 
 
 ## Entrega
