@@ -39,10 +39,10 @@ Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas
 
 Para conectar ao banco de dados postgres, utilize o acesso disponível no arquivo [.env](./desafio2) para conectar.
 
-**Consultas a serem feitas**
-1 - O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?<br>
-2 - Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação<br>
-3 - Faça um SQL para atualizar todos os produtos da categoria Cremes e Geleias para a categoria Frutas
+**Consultas a serem feitas**<br>
+1. O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?<br>
+2. Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação<br>
+3. Faça um SQL para atualizar todos os produtos da categoria Cremes e Geleias para a categoria Frutas
 
 Adicione sua solução na pasta [Desafio 2](./desafio2/)
 
@@ -51,9 +51,9 @@ Adicione sua solução na pasta [Desafio 2](./desafio2/)
 Nesse desafio, usuários relataram alguns problemas no uso de uma simples aplicação.
 Como desenvolvedor N3, você deverá realizar uma análise dos problemas relatados e disponibilizar uma correção para normalizar a aplicação.
 
-Problema 1: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.<br>
-Problema 2: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". <br>
-Problema 3: Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.<br>
+1. É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.<br>
+2. É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". <br>
+3. Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.<br>
 
 Faça sua solução na pasta [Desafio 3](./desafio2/)
 
