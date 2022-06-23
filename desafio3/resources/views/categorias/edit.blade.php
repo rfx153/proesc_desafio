@@ -3,8 +3,6 @@
 @section('conteudo')
 <br>
     <div class="col-8 m-auto">
-
-      {{ var_dump($category) }};
     @if(isset($category))
       <form name="formEdit" id="formEdit" method="POST" action="{{url("categorias/$category->id")}}">
         {{ method_field('PUT') }}
