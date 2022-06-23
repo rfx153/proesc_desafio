@@ -18,6 +18,10 @@ O time de N3 dentro do suporte técnico tem como principal objetivo resolver cha
 
 Este desafio técnico é uma atividade prática, onde avaliaremos seus conhecimentos de lógica de programação, banco de dados e html, assuntos que precisará utilizar diariamente para a função de agente de suporte N3.
 
+Linguagens: PHP
+Framework: Laravel
+Banco: Postgres
+
 ### Desafio 1
 No dia a dia utilizamos de html, css e javascript para criar relatórios para nossas instituições de ensino. 
 
@@ -25,25 +29,34 @@ Assim, uma escola pediu auxílio para criar uma declaração de matrícula. Veri
 
  **Requisitos**
 - Utilize html e css puro
-- Crie o relatório com base na imagem dispobilizada pela escola: [Modelo de declaração de matrícula](inserir link)
+- Crie o relatório com base na imagem dispobilizada pela escola: [Modelo de declaração de matrícula](./desafio1/modelo-declaracao.png)
 
+
+Adicione sua solução na pasta [Desafio 1](./desafio1/)
 
 ### Desafio 2
-Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas no banco. Utilize o banco de dados disponível para realizar as consultas necessárias. Para conectar ao banco de dados, utilize o acesso disponível no arquivo .env
+Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas no banco. Utilize o banco de dados disponível para realizar as consultas necessárias. 
+
+Para conectar ao banco de dados postgres, utilize o acesso disponível no arquivo [.env](./desafio2) para conectar.
 
 **Consultas a serem feitas**
-1 - O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?
-2 - Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação
+1 - O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?<br>
+2 - Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação<br>
 3 - Faça um SQL para atualizar todos os produtos da categoria Cremes e Geleias para a categoria Frutas
+
+Adicione sua solução na pasta [Desafio 2](./desafio2/)
 
 ### Desafio 3
 
-Nesse desafio, usuários irão ter relatado alguns problemas no uso de uma simples aplicação.
+Nesse desafio, usuários relataram alguns problemas no uso de uma simples aplicação.
 Como desenvolvedor N3, você deverá realizar uma análise dos problemas relatados e disponibilizar uma correção para normalizar a aplicação.
 
-Problema 1: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.
-Problema 2: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". 
-Problema 3: Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.
+Problema 1: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.<br>
+Problema 2: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". <br>
+Problema 3: Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.<br>
+
+Faça sua solução na pasta [Desafio 3](./desafio2/)
+
 
 ### Como executar 
 
@@ -54,6 +67,11 @@ $ git clone https://github.com/Lorenalgm/desafio_tecnico_proesc/
 ```
 
 ```bash
+# Entre na pasta do projeto
+$ cd desafio3
+```
+
+```bash
 # Instale as depêndencias
 $ composer install
 ```
@@ -61,6 +79,7 @@ $ composer install
 ```bash
 Crie arquivo .env clonando o arquivo .env.example
 ```
+
 ```bash
 # Crie uma nova chave para a aplicação
 $ php artisan key:generate
