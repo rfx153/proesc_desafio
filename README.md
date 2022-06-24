@@ -4,9 +4,9 @@
 ## Índice
 
 - [Sobre o desafio](#sobre-o-desafio)
-  - [Questão 1](#questao-1)
-  - [Questão 2](#questao-2)
-  - [Questão 3](#questao-3)
+  - [Desafio 1](#desafio-1)
+  - [Desafio 2](#desafio-2)
+  - [Desafio 3](#desafio-3)
 - [Bonus](#bonus)
 - [Entrega](#entrega)
 
@@ -20,7 +20,7 @@ Este desafio técnico é uma atividade prática, onde avaliaremos seus conhecime
 
 - Linguagens: PHP
 - Framework: Laravel
-- Banco: Postgres
+- Banco de dados: Postgres
 
 ### Desafio 1
 No dia a dia utilizamos de html, css e javascript para criar relatórios para nossas instituições de ensino. 
@@ -52,7 +52,7 @@ Nesse desafio, usuários relataram alguns problemas no uso de uma simples aplica
 Como desenvolvedor N3, você deverá realizar uma análise dos problemas relatados e disponibilizar uma correção para normalizar a aplicação.
 
 1. É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.<br>
-2. É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". <br>
+2. Um usuário relatou dificuldades ao realizar o cadastro de uma nova categoria. Ao preencher os dados e apertar em "Salvar", mostra a mensagem de sucesso no entanto não é feito o cadastro. Realize uma correção nesse procedimento<br>
 3. Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.<br>
 
 Faça sua solução na pasta [Desafio 3](./desafio2/)
