@@ -4,9 +4,9 @@
 ## Índice
 
 - [Sobre o desafio](#sobre-o-desafio)
-  - [Questão 1](#questao-1)
-  - [Questão 2](#questao-2)
-  - [Questão 3](#questao-3)
+  - [Desafio 1](#desafio-1)
+  - [Desafio 2](#desafio-2)
+  - [Desafio 3](#desafio-3)
 - [Bonus](#bonus)
 - [Entrega](#entrega)
 
@@ -18,9 +18,9 @@ O time de N3 dentro do suporte técnico tem como principal objetivo resolver cha
 
 Este desafio técnico é uma atividade prática, onde avaliaremos seus conhecimentos de lógica de programação, banco de dados e html, assuntos que precisará utilizar diariamente para a função de agente de suporte N3.
 
-Linguagens: PHP
-Framework: Laravel
-Banco: Postgres
+- Linguagens: PHP
+- Framework: Laravel
+- Banco de dados: Postgres
 
 ### Desafio 1
 No dia a dia utilizamos de html, css e javascript para criar relatórios para nossas instituições de ensino. 
@@ -39,10 +39,10 @@ Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas
 
 Para conectar ao banco de dados postgres, utilize o acesso disponível no arquivo [.env](./desafio2) para conectar.
 
-**Consultas a serem feitas**
-1 - O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?<br>
-2 - Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação<br>
-3 - Faça um SQL para atualizar todos os produtos da categoria Cremes e Geleias para a categoria Frutas
+**Consultas a serem feitas**<br>
+1. O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?<br>
+2. Além disso, também quer saber a média de preços de cada categoria. Monte o SQL para essa solicitação<br>
+3. Faça um SQL para atualizar todos os produtos da categoria Cremes e Geleias para a categoria Frutas
 
 Adicione sua solução na pasta [Desafio 2](./desafio2/)
 
@@ -51,9 +51,9 @@ Adicione sua solução na pasta [Desafio 2](./desafio2/)
 Nesse desafio, usuários relataram alguns problemas no uso de uma simples aplicação.
 Como desenvolvedor N3, você deverá realizar uma análise dos problemas relatados e disponibilizar uma correção para normalizar a aplicação.
 
-Problema 1: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.<br>
-Problema 2: É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". <br>
-Problema 3: Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.<br>
+1. É encontrado um erro na página inicial ao tentar navegar para página a "Produtos" ou "Categorias". Realize uma correção na navegação.<br>
+2. Um usuário relatou dificuldades ao realizar o cadastro de uma nova categoria. Ao preencher os dados e apertar em "Salvar", mostra a mensagem de sucesso no entanto não é feito o cadastro. Realize uma correção nesse procedimento<br>
+3. Na página de listagem de Produtos, usuários identificaram que não está sendo exibido o nome da Categoria relacionada. Realize uma correção para exibir o nome correto da categoria vinculada ao produto.<br>
 
 Faça sua solução na pasta [Desafio 3](./desafio2/)
 
