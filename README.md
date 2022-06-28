@@ -35,9 +35,9 @@ Assim, uma escola pediu auxílio para criar uma declaração de matrícula. Veri
 Adicione sua solução na pasta [Desafio 1](./desafio1/)
 
 ### Desafio 2
-Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas no banco. Utilize o banco de dados disponível para realizar as consultas necessárias. 
+Você recebeu um chamado de um cliente e vai precisar realizar algumas consultas no banco. Utilize um banco de dados local disponível para realizar as consultas necessárias. 
 
-Para conectar ao banco de dados postgres, utilize o acesso disponível no arquivo [.env](./desafio2) para conectar.
+Para conectar-se, crie uma nova base de dados PostgreSQL utilizando os comandos disponíveis [aqui](#como-executar).
 
 **Consultas a serem feitas**<br>
 1. O cliente gostaria de saber quantos produtos ele possui em cada categoria. Qual SQL você faria para realizar essa consulta?<br>
@@ -77,7 +77,7 @@ $ composer install
 ```
 
 ```bash
-Crie arquivo .env clonando o arquivo .env.example
+'Crie arquivo .env clonando o arquivo .env.example e configure com as informações do seu banco local'
 ```
 
 ```bash
