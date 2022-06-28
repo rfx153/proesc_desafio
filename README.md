@@ -86,6 +86,16 @@ $ php artisan key:generate
 ```
 
 ```bash
+# Rode as migrations
+$ php artisan migrate
+```
+
+```bash
+# Rode o seeder
+$ php artisan db:seed
+```
+
+```bash
 # Iniciar o projeto
 $ php artisan serve
 ```
