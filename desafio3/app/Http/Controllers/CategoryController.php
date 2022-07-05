@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use \App\Models\Category;
+use App\Http\Requests\CategoryRequest;
 
 class CategoryController extends Controller
 {
@@ -14,7 +15,8 @@ class CategoryController extends Controller
     }
     public function index()
     {
-     return view('categorias-cadastrar', ['categories' => $categories] );
+     $categories = \App\Models\Category::all();
+     return view('categorias', ['categories' => $categories] );
     }
 
     public function listar()
@@ -25,10 +27,10 @@ class CategoryController extends Controller
 
     public function create()
     {
-     return view('categorias.create', ['category' => '']);
+     return view('categorias.create');
     }
 
-    public function store(Request $request)
+    public function store(CategoryRequest $request)
     {
         $category= $this->objCategory->create([
             'name'=>$request->name,
@@ -46,7 +48,7 @@ class CategoryController extends Controller
      return view('categorias.edit', ['category' => $category] );
     }
 
-    public function update(Request $request, $id)
+    public function update(CategoryRequest $request, $id)
     {
         $this->objCategory->where(['id' => $id])->update([
             'name'=>$request->name,
