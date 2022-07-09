@@ -1,4 +1,5 @@
 @extends('layouts.default')
+{{ $produto->category}}
 @section('conteudo')
 <div class="flex-center position-ref full-height">
     <div class="product-container">
@@ -20,6 +21,8 @@
                 </tr>
                 </thead>
                 @forelse ($produtos as $produto)
+                
+                   
                     <tbody>
                     <tr class="table-light">
                         <th scope="row">

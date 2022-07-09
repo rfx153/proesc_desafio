@@ -4,14 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use \App\Models\Category;
+use \App\Models\Product;
 use App\Http\Requests\CategoryRequest;
 
 class CategoryController extends Controller
 {
     private $objCategory;
+    
 
     public function __construct(){
         $this->objCategory = new Category();
+        
     }
     public function index()
     {
@@ -55,12 +58,12 @@ class CategoryController extends Controller
             'slug'=> str_slug($request->name),
             'description'=>$request->description
         ]);
-        return redirect('produtos/listar');
+        return redirect('categorias/listar');
     }
  
     public function destroy($id)
     {
         $category = $this->objCategory->find($id)->delete();
-        return redirect('produtos/listar')->with('msg', 'Categoria excluída com sucesso.');
+        return redirect('categorias/listar')->with('msg', 'Categoria excluída com sucesso.');
     }
 }
